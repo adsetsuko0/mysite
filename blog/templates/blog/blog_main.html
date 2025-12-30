@@ -7,7 +7,7 @@
 -->
 <html>
 	<head>
-		<title> My diary </title>
+		<title> Anna Ermak - Portfolio </title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{% static "blog/css/main.css" %}" />
@@ -38,8 +38,10 @@
 					<nav id="nav">
 						<ul class="links">
 							<li class="active"><a href="{% url "main_page" %}">Home</a></li>
-							<li><a href="blog_works.html">TBA</a></li>
-							<li><a href="blog_elements.html">TBA</a></li>
+							<li class="active"><a href="{% url "main_page" %}">About</a></li>
+							<li><a href="blog_works.html">Portfolio</a></li>							
+							<li><a href="blog_elements.html">Skills</a></li>
+							<li><a href="blog_elements.html">Contact</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
@@ -63,7 +65,7 @@
 								</header>
 								<a href="#" class="image main"><img src="{% static 'images/pic01.jpg' %}" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
+									<li><a href="#" class="button large">My Portfolio</a></li>
 								</ul>
 							</article>
 
@@ -142,21 +144,6 @@
 									</ul>
 								</article>
 							</section>
-
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer>
 
 					</div>
 
